@@ -1,0 +1,46 @@
+html::after, html::before, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+   
+}
+
+.board {
+    background: black;
+    width: 520px;
+    height: 490px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    background: blue;
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.redCircle {
+    background: red;
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.grayCircle {
+    background: gray;
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
